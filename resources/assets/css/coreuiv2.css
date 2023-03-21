@@ -4,3 +4,7 @@
     position: relative;
     margin: 0 auto;
 }
+
+#crudTable {
+    background-color: #FFFFFF !important;
+}
