@@ -8,3 +8,8 @@
 #crudTable {
     background-color: #FFFFFF !important;
 }
+
+h1[bp-section=page-heading] {
+    font-size: 2rem;
+    line-height: 2.1rem;
+}
