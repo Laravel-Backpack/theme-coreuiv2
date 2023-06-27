@@ -13,3 +13,15 @@ h1[bp-section=page-heading] {
     font-size: 2rem;
     line-height: 2.1rem;
 }
+
+
+.container-repeatable-elements .controls button {
+    background-color: #e8ebf0 !important;
+    height: 24px !important;
+    width: 24px !important;
+    margin-left: 4px!important;
+}
+
+.container-repeatable-elements .controls {
+    left: -16px !important;
+}
