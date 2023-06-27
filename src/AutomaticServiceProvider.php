@@ -126,7 +126,7 @@ trait AutomaticServiceProvider
         if ($this->packageDirectoryExistsAndIsNotEmpty('config')) {
             $this->publishes([
                 $this->packageConfigFile() => $this->publishedConfigFile(),
-            ], 'config');
+            ], 'coreuiv2-config');
         }
 
         // Publishing the views.
