@@ -25,3 +25,8 @@ h1[bp-section=page-heading] {
 .container-repeatable-elements .controls {
     left: -16px !important;
 }
+
+.sidebar.sidebar-pills .nav-dropdown .nav-link:not(.nav-dropdown-toggle),
+.sidebar.sidebar-pills .nav-dropdown .nav-title {
+    padding-left: 1.5rem;
+}
