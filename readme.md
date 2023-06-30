@@ -16,8 +16,7 @@ If you're one of the developers above, fear not... this package offers a way for
 
 ## Screenshots
 
-![Backpack Toggle Field Addon](https://via.placeholder.com/600x250?text=screenshot+needed)
-
+![CleanShot 2023-06-30 at 18 19 46](https://github.com/Laravel-Backpack/theme-coreuiv2/assets/1032474/6b8892cd-97c2-453b-aff4-90da092c5268)
 
 ## Installation
 
