@@ -34,3 +34,7 @@ h1[bp-section=page-heading] {
 .alert > ul {
     margin-bottom: 0;
 }
+
+#datatable_search_stack .input-icon-addon {
+    display: none;
+}
