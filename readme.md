@@ -26,7 +26,7 @@ If you're one of the developers above, fear not... this package offers a way for
 composer require backpack/theme-coreuiv2
 ```
 
-**Step 2.** Go to `config/backpack/base.php` and change your view namespace:
+**Step 2.** Go to `config/backpack/ui.php` and change your view namespace:
 
 ```diff
 -    'view_namespace' => 'backpack::',
