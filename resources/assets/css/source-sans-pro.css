@@ -3,7 +3,7 @@
     font-weight: 200;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-ExtraLight.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -11,7 +11,7 @@
     font-weight: 200;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -19,7 +19,7 @@
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-Light.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -27,7 +27,7 @@
     font-weight: 300;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-LightIt.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -35,7 +35,7 @@
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-Regular.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -43,7 +43,7 @@
     font-weight: 400;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-It.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -51,7 +51,7 @@
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-Semibold.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -59,7 +59,7 @@
     font-weight: 600;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-SemiboldIt.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -67,7 +67,7 @@
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-Bold.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -75,7 +75,7 @@
     font-weight: 700;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-BoldIt.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -83,7 +83,7 @@
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-Black.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-Black.ttf.woff2') format('woff2');
 }
 
 @font-face{
@@ -91,5 +91,5 @@
     font-weight: 900;
     font-style: italic;
     font-stretch: normal;
-    src: url('/storage/basset/source-sans-pro/WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2') format('woff2');
+    src: url('/storage/basset/source-sans-pro/SourceSans3-BlackIt.ttf.woff2') format('woff2');
 }

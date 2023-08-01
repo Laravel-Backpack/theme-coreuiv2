@@ -2,7 +2,7 @@
 @basset('https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css')
 
 {{-- Source Sans Font --}}
-@bassetArchive('https://github.com/adobe-fonts/source-sans/releases/download/3.052R/WOFF2-source-sans-3.052R.zip', 'source-sans-pro')
+@bassetArchive(base_path('vendor/backpack/theme-coreuiv2/resources/assets/fonts/source-sans-3.052R.tar.gz'), 'source-sans-pro')
 @basset(base_path('vendor/backpack/theme-coreuiv2/resources/assets/css/source-sans-pro.css'))
 
 {{-- Custom Backpack Rules --}}
