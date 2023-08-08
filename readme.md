@@ -18,7 +18,7 @@ If you're one of the developers above, fear not... this package offers a way for
 
 ![CleanShot 2023-06-30 at 18 19 46](https://github.com/Laravel-Backpack/theme-coreuiv2/assets/1032474/6b8892cd-97c2-453b-aff4-90da092c5268)
 
-## Installation
+## Installing
 
 **Step 1.** Install via Composer
 
@@ -38,6 +38,14 @@ composer require backpack/theme-coreuiv2
 ```bash
 php artisan vendor:publish --tag="theme-coreuiv2-config"
 ```
+
+## Uninstalling
+
+To uninstall this Backpack theme:
+
+1. Remove the composer package. Eg. `composer remove backpack/theme-coreuiv2`
+2. Delete the config file. Eg. `rm -rf config/backpack/theme-coreuiv2.php`
+3. Install a new theme (eg. `php artisan backpack:require:theme-coreuiv4`) or change the `view_namespace` in `config/backpack/ui.php` to the theme you want to be active.
 
 ## Overriding
 
