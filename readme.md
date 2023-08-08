@@ -73,6 +73,150 @@ mkdir -p resources/views/vendor/backpack/theme-coreuiv2
 cp -i vendor/backpack/theme-coreuiv2/src/resources/views/dashboard.blade.php resources/views/vendor/backpack/theme-coreuiv2/dashboard.blade.php
 ```
 
+## Customizing
+
+In ```config/backpack/theme-coreuiv2.php``` you'll notice there are variables where you can change exactly what CSS classes are placed on the HTML elements that represent the header, body, sidebar and footer:
+
+```php
+    // Horizontal navbar classes. Helps make the admin panel look similar to your project's design.
+    'header_class' => 'app-header bg-light border-0 navbar',
+        // Try adding bg-dark, bg-primary, bg-secondary, bg-danger, bg-warning, bg-success, bg-info, bg-blue, bg-light-blue, bg-indigo, bg-purple, bg-pink, bg-red, bg-orange, bg-yellow, bg-green, bg-teal, bg-cyan
+        // You might need to add "navbar-dark" too if the background color is a dark one.
+        // Add header-fixed if you want the header menu to be sticky
+
+    // Body element classes.
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+        // Try sidebar-hidden, sidebar-fixed, sidebar-compact, sidebar-lg-show
+
+
+    // Sidebar element classes.
+    'sidebar_class' => 'sidebar sidebar-pills bg-light',
+        // Remove "sidebar-transparent" for standard sidebar look
+        // Try "sidebar-light" or "sidebar-dark" for dark/light links
+        // You can also add a background class like bg-dark, bg-primary, bg-secondary, bg-danger, bg-warning, bg-success, bg-info, bg-blue, bg-light-blue, bg-indigo, bg-purple, bg-pink, bg-red, bg-orange, bg-yellow, bg-green, bg-teal, bg-cyan
+
+    // Footer element classes.
+    'footer_class' => 'app-footer',
+```
+
+Our default design might not be pleasant for your, or you might need to make the UI integrate better into your project. We totally understand. You can use the classes above to make it look considerably different.
+
+You'll find a few examples below - but you should use which classes you want to get the result you need.
+
+<a href="ui-with-dark-sidebar"></a>
+#### Backstrap
+
+Transparent top menu, transparent sidebar, transparent footer. This is the default. This is what _we_ think is best for most users, from our 8+ years of experience building admin panels. Prioritising _content_ over _menus_.
+
+![Backstrap design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/default.png)
+
+```php
+    'header_class' => 'app-header bg-light border-0 navbar',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar sidebar-pills bg-light',
+    'footer_class' => 'app-footer',
+```
+
+<a href="inspired-by-coreui"></a>
+#### Inspired by CoreUI
+
+White top menu, dark sidebar.
+
+![CoreUI design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/coreui.png)
+
+```php
+    'header_class' => 'app-header navbar',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar',
+    'footer_class' => 'app-footer d-none',
+```
+
+<a href="inspired-by-github"></a>
+#### Inspired by GitHub
+
+Black top menu, white sidebar.
+
+![CoreUI design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/github.png)
+
+```php
+    'header_class' => 'app-header bg-dark navbar',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar bg-white sidebar-pills',
+    'footer_class' => 'app-footer d-none',
+```
+
+<a href="blue-top-menu"></a>
+#### Blue Top Menu
+
+Blue top menu, dark sidebar.
+
+![Construction or warning design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/blue.png)
+
+```php
+    'header_class' => 'app-header navbar navbar-color bg-primary border-0',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar', // add "bg-white sidebar-pills" for light sidebar
+    'footer_class' => 'app-footer d-none',
+```
+
+
+<a href="inspired-by-contruction"></a>
+#### Construction / Warning
+
+Yellow top menu, dark sidebar.
+
+![Construction or warning design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/construction.png)
+
+```php
+    'header_class' => 'app-header navbar navbar-light bg-warning',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar', // add "bg-white sidebar-pills" for light sidebar
+    'footer_class' => 'app-footer d-none',
+```
+
+<a href="red-top-menu"></a>
+#### Red Top Menu
+
+Red top menu, dark sidebar.
+
+![Construction or warning design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/red.png)
+
+```php
+    'header_class' => 'app-header navbar navbar-color bg-error border-0',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar', // add "bg-white sidebar-pills" for light sidebar
+    'footer_class' => 'app-footer d-none',
+```
+
+<a href="pink-top-menu"></a>
+#### Pink Top Menu
+
+Pink top menu, transparent sidebar.
+
+![Construction or warning design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/pink.png)
+
+```php
+    'header_class' => 'app-header navbar navbar-color bg-error border-0',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar sidebar-pills bg-light',
+    'footer_class' => 'app-footer d-none',
+```
+
+
+<a href="green-top-menu"></a>
+#### Green Top Menu
+
+Green top menu, white sidebar.
+
+![Construction or warning design](https://backpackforlaravel.com/uploads/docs-4-0/ui/examples/green.png)
+
+```php
+    'header_class' => 'app-header navbar navbar-color bg-green border-0',
+    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+    'sidebar_class' => 'sidebar sidebar-pills bg-white',
+    'footer_class' => 'app-footer d-none',
+```
+
 ## Change log
 
 Changes are documented here on Github. Please see the [Releases tab](https://github.com/backpack/theme-coreuiv2/releases).
