@@ -20,6 +20,18 @@ If you're one of the developers above, fear not... this package offers a way for
 
 ## Installing
 
+### Automatic installation
+
+Because this a 1st party theme, you can quickly install it using
+
+```
+php artisan backpack:require:theme-coreuiv2
+```
+
+Alternatively, follow the manual installation process below.
+
+## Manual installation
+
 **Step 1.** Install via Composer
 
 ``` bash
