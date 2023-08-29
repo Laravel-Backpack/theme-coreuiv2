@@ -2,12 +2,11 @@
 
 @section('content')
 
-<div class="container pt-4">
-    <div class="text-center mb-4">
-        {!! backpack_theme_config('project_logo') !!}
-    </div>
-    <div class="card card-md">
-        <div class="card-body text-center pt-3">
+<div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-4">
+            <h3 class="text-center mb-4">{{ trans('backpack::base.verify_email.email_verification') }}</h3>
+            <div class="card">
+                <div class="card-body">
         {{ trans('backpack::base.verify_email.email_verification_required') }}
 
         @if (session('status') == 'verification-link-sent')
@@ -25,7 +24,7 @@
             </div>
         @endif
         </div>
-        <div class="card-footer row">
+        <div class="card-footer d-flex align-center">
         <form method="POST" class="col-md-6" action="{{ route('verification.send') }}">
             @csrf
             <button type="submit" class="btn btn-sm btn-primary float-start float-left" tabindex="6">{{ trans('backpack::base.verify_email.resend_verification_link') }}</button>   
