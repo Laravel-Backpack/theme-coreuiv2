@@ -1,4 +1,4 @@
-@if (backpack_theme_config('show_powered_by') || config('developer_link'))
+@if (backpack_theme_config('show_powered_by') || backpack_theme_config('developer_link'))
     <div class="text-muted ml-auto mr-auto">
       @if (backpack_theme_config('developer_link') && backpack_theme_config('developer_name'))
       {{ trans('backpack::base.handcrafted_by') }} <a target="_blank" rel="noopener" href="{{ backpack_theme_config('developer_link') }}">{{ backpack_theme_config('developer_name') }}</a>.
