@@ -1,3 +1,6 @@
+:root {
+    --bg-switch-checked-color: var(--primary);
+}
 
 #crudTable_wrapper #crudTable .crud_bulk_actions_checkbox input.form-check-input,
 #crudTable_wrapper table.dataTable .crud_bulk_actions_checkbox input.form-check-input {
