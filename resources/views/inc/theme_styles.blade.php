@@ -1,5 +1,5 @@
 @basset('https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css')
-@basset('https://unpkg.com/@digitallyhappy/backstrap@0.5.1/dist/css/legacy.css')
+@basset('https://cdn.jsdelivr.net/npm/@digitallyhappy/backstrap@0.5.1/dist/css/legacy.css')
 
 {{-- Source Sans Font | this definition shouldn't change as the inclusion of the font in css depends on relative file paths --}}
 @bassetArchive(base_path('vendor/backpack/theme-coreuiv2/resources/assets/fonts/source-sans-3.052R.tar.gz'), 'source-sans-pro')
