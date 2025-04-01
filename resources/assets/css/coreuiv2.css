@@ -2,13 +2,13 @@
     --bg-switch-checked-color: var(--primary);
 }
 
-#crudTable_wrapper #crudTable .crud_bulk_actions_checkbox input.form-check-input,
-#crudTable_wrapper table.dataTable .crud_bulk_actions_checkbox input.form-check-input {
+.dataTables_wrapper .dataTable .crud_bulk_actions_checkbox input.form-check-input,
+.dataTables_wrapper table.dataTable .crud_bulk_actions_checkbox input.form-check-input {
     position: relative;
     margin: 0 auto;
 }
 
-#crudTable {
+table.dataTable {
     background-color: #FFFFFF !important;
 }
 
