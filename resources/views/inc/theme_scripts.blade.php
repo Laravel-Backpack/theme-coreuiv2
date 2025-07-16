@@ -1,3 +1,3 @@
-@basset("bp-popper-js")
-@basset('bp-bootstrap4-js')
-@basset('bp-coreui2-js')
+@basset('https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js', true, ['integrity' => 'sha256-BRqBN7dYgABqtY9Hd4ynE+1slnEw+roEPFzQ7TRRfcg=', 'crossorigin' => 'anonymous'])
+@basset('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js', true, ['integrity' => 'sha512-7rusk8kGPFynZWu26OKbTeI+QPoYchtxsmPeBqkHIEXJxeun4yJ4ISYe7C6sz9wdxeE1Gk3VxsIWgCZTc+vX3g==', 'crossorigin' => 'anonymous'])
+@basset('https://cdn.jsdelivr.net/npm/@coreui/coreui@2.1.16/dist/js/coreui.min.js', true, ['integrity' => 'sha256-IEYW8sRtA+cOsgiyWfLZnsSXxew/8p4sqHogSZJ+bcQ=', 'crossorigin' => 'anonymous'])
