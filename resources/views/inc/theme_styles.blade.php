@@ -1,4 +1,4 @@
-@basset('https://cdn.jsdelivr.net/npm/noty@3.2.0-beta-deprecated/lib/noty.min.css', true, ['integrity' => 'sha384-06UJlYrXGflQ8SjYDEf63SOUEuaWJ16nmd3nj6pttaS27WbGGJH0D1zJc0EokKhB', 'crossorigin' => 'anonymous'])
+@basset('https://cdn.jsdelivr.net/npm/noty@3.2.0-beta-deprecated/lib/noty.css', true, ['integrity' => 'sha256-dfOQcvfduHjwxemginIeingtMCnG35zrDhpluwxCe/U=', 'crossorigin' => 'anonymous'])
 
 {{-- CoreUI 2 CSS --}}
 @basset('https://cdn.jsdelivr.net/npm/@digitallyhappy/backstrap@0.5.1/dist/css/legacy.min.css', true, ['integrity' => 'sha384-JZChMdvSKDQzhyLHIRN9IR9eigXQIhZ4CFYpO3fKZUN20e1m8M/cvLa1c9vbaaK+', 'crossorigin' => 'anonymous'])
