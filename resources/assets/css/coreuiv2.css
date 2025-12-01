@@ -58,3 +58,49 @@ h1[bp-section=page-heading] {
     border-radius: 0.375rem;
     opacity: .5;
 }
+
+div.dt-container .dt-paging {
+    margin-top: 10px;
+}
+
+div.dt-container .dt-paging .dt-paging-button {
+    padding: 0;
+    margin: 0;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button .page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin: 0 2px;
+    line-height: 1.25;
+    color: var(--primary);
+    background-color: transparent;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+div.dt-container .dt-paging .dt-paging-button.active .page-link {
+    z-index: 1;
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+div.dt-container .dt-paging .dt-paging-button.disabled .page-link {
+    color: #73818f;
+    pointer-events: none;
+    cursor: auto;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+div.dt-container .dt-paging .dt-paging-button:not(.disabled):not(.active) .page-link:hover {
+    color: var(--primary);
+    text-decoration: none;
+    background-color: #e4e7ea;
+    border-color: transparent;
+}
