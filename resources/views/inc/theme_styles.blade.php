@@ -11,3 +11,6 @@
 
 {{-- Custom Backpack Rules --}}
 @basset(base_path('vendor/backpack/theme-coreuiv2/resources/assets/css/coreuiv2.css'))
+
+{{-- Select2 Bootstrap 3/4 theme (only needed for CoreUI v2) --}}
+@basset('https://cdn.jsdelivr.net/npm/select2-bootstrap-theme@0.1.0-beta.10/dist/select2-bootstrap.min.css')
