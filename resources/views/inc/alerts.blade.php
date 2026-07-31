@@ -1,4 +1,4 @@
-{{-- Bootstrap Notifications using Prologue Alerts & PNotify JS --}}
+{{-- Bootstrap Notifications using Backpack Alerts --}}
 <script type="text/javascript">
     // This is intentionaly run after dom loads so this way we can avoid showing duplicate alerts
     // when the user is beeing redirected by persistent table, that happens before this event triggers.
@@ -33,10 +33,12 @@
                 let messages = new Set($alerts_from_localstorage[type]);
 
                 messages.forEach(function(text) {
-                    let alert = {};
-                    alert['type'] = type;
-                    alert['text'] = text;
-                    new Noty(alert).show()
+                    if (typeof text === 'object') {
+                        text['type'] = type;
+                        new Noty(text).show();
+                    } else {
+                        new Noty({type: type, text: text}).show();
+                    }
                 });
             }
 

@@ -104,3 +104,100 @@ div.dt-container .dt-paging .dt-paging-button:not(.disabled):not(.active) .page-
     background-color: #e4e7ea;
     border-color: transparent;
 }
+
+.noty_theme__backstrap.noty_bar {
+    margin: 4px 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.noty_theme__backstrap.noty_bar .noty_body {
+    padding: .75rem 1.25rem;
+    font-weight: 300;
+}
+.noty_theme__backstrap.noty_bar .noty_close_button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #161C2D;
+    text-shadow: 0 1px 0 #FFFFFF;
+    opacity: .5;
+    background: transparent;
+}
+.noty_theme__backstrap.noty_bar .noty_close_button:hover {
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+.noty_theme__backstrap.noty_type__warning {
+    color: #F9FBFD;
+    background-color: #ffc107;
+    border-color: #d39e00;
+}
+.noty_theme__backstrap.noty_type__danger,
+.noty_theme__backstrap.noty_type__error {
+    color: #F9FBFD;
+    background-color: #df4759;
+    border-color: #cf2438;
+}
+.noty_theme__backstrap.noty_type__info,
+.noty_theme__backstrap.noty_type__information {
+    color: #F9FBFD;
+    background-color: #467FD0;
+    border-color: #2e66b5;
+}
+.noty_theme__backstrap.noty_type__success {
+    color: #F9FBFD;
+    background-color: #42ba96;
+    border-color: #359478;
+}
+.noty_theme__backstrap.noty_bar {
+    margin: 4px 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.noty_theme__backstrap.noty_bar .noty_body {
+    padding: .75rem 1.25rem;
+    font-weight: 300;
+}
+.noty_theme__backstrap.noty_bar .noty_close_button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #161C2D;
+    text-shadow: 0 1px 0 #FFFFFF;
+    opacity: .5;
+    background: transparent;
+}
+.noty_theme__backstrap.noty_bar .noty_close_button:hover {
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+.noty_theme__backstrap.noty_type__warning {
+    color: #F9FBFD;
+    background-color: #ffc107;
+    border-color: #d39e00;
+}
+.noty_theme__backstrap.noty_type__danger,
+.noty_theme__backstrap.noty_type__error {
+    color: #F9FBFD;
+    background-color: #df4759;
+    border-color: #cf2438;
+}
+.noty_theme__backstrap.noty_type__info,
+.noty_theme__backstrap.noty_type__information {
+    color: #F9FBFD;
+    background-color: #467FD0;
+    border-color: #2e66b5;
+}
+.noty_theme__backstrap.noty_type__success {
+    color: #F9FBFD;
+    background-color: #42ba96;
+    border-color: #359478;
+}
