@@ -16,7 +16,7 @@
                                 <div class="input-group">
                                     <input type="text" class="form-control{{ $errors->has($username) ? ' is-invalid' : '' }}" name="{{ $username }}" value="{{ old($username) }}" id="{{ $username }}" autocomplete="{{ ($username === 'email' ? 'email' : 'username') }} webauthn">
                                     <div class="input-group-append">
-                                        @includeWhen(config('backpack.multi_auth.features.magic_link', false), 'backpack.multi-auth::auth._magic_link_button', ['username' => $username])
+                                        @includeWhen(config('backpack.multi-auth.features.magic_link', false), 'backpack.multi-auth::auth._magic_link_button', ['username' => $username])
                                     </div>
                                 </div>
 
@@ -62,10 +62,10 @@
                     </form>
                 </div>
             </div>
-            @if (config('backpack.multi_auth.socialite.enabled') && View::exists('backpack.multi-auth::auth._socialite_login_buttons'))
+            @if (config('backpack.multi-auth.socialite.enabled') && View::exists('backpack.multi-auth::auth._socialite_login_buttons'))
                 @include('backpack.multi-auth::auth._socialite_login_buttons')
             @endif
-            @includeWhen(config('backpack.multi_auth.features.passkeys', false), 'backpack.multi-auth::auth._passkey_login_button')
+            @includeWhen(config('backpack.multi-auth.features.passkeys', false), 'backpack.multi-auth::auth._passkey_login_button')
             @if (backpack_users_have_email() && backpack_email_column() == 'email' && config('backpack.base.setup_password_recovery_routes', true))
                 <div class="text-center"><a href="{{ route('backpack.auth.password.reset') }}">{{ trans('backpack::base.forgot_your_password') }}</a></div>
             @endif
