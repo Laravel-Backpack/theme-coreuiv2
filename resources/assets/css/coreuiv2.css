@@ -42,7 +42,7 @@ h1[bp-section=page-heading] {
     margin-bottom: 0;
 }
 
-#datatable_search_stack .input-icon-addon {
+.datatable_search_stack .input-icon-addon:not(.datatable-search-clear) {
     display: none;
 }
 
