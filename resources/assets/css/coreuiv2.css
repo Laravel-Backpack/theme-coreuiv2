@@ -2,13 +2,13 @@
     --bg-switch-checked-color: var(--primary);
 }
 
-#crudTable_wrapper #crudTable .crud_bulk_actions_checkbox input.form-check-input,
-#crudTable_wrapper table.dataTable .crud_bulk_actions_checkbox input.form-check-input {
+.dt-container .crud_bulk_actions_checkbox input.form-check-input,
+.dt-container table.dataTable .crud_bulk_actions_checkbox input.form-check-input {
     position: relative;
     margin: 0 auto;
 }
 
-#crudTable {
+.dt-container table.dataTable {
     background-color: #FFFFFF !important;
 }
 
@@ -42,7 +42,7 @@ h1[bp-section=page-heading] {
     margin-bottom: 0;
 }
 
-#datatable_search_stack .input-icon-addon {
+.datatable_search_stack .input-icon-addon:not(.datatable-search-clear) {
     display: none;
 }
 
